@@ -15,7 +15,7 @@ def enhance_for_ocr(img_path):
     return cv2.cvtColor(denoised, cv2.COLOR_GRAY2BGR)
 
 ocr = PaddleOCR(use_textline_orientation=True, lang='en')
-image_path = "test_image1.jpeg"
+image_path = "front/test_image1.jpeg"
 clean_img = enhance_for_ocr(image_path)
 
 if clean_img is not None:
