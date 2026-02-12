@@ -15,7 +15,7 @@ else:
 
 def start_extraction():
     # Image path configuration
-    image_path = "back/test_image1.jpeg" 
+    image_path = "back/haider-back.jpeg" 
     
     if not os.path.exists(image_path):
         print(f"Error: File not found at path: '{image_path}'")
